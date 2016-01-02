@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LCB_StorePickup>
+            <active>true</active>
+            <codePool>community</codePool>            
+            <depends>
+                <Mage_Shipping />
+            </depends>
+            <version>1.0.0</version>
+        </LCB_StorePickup>
+    </modules>
+</config>

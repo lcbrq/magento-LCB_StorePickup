@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LCB_StorePickup>
+            <version>1.0.0</version>
+        </LCB_StorePickup>
+    </modules>
+    <global>
+        <helpers>
+            <storepickup>
+                <class>LCB_StorePickup_Helper</class>
+            </storepickup>
+        </helpers>
+        <models>
+            <storepickup>
+                <class>LCB_StorePickup_Model</class>
+                <resourceModel>storepickup_mysql4</resourceModel>
+            </storepickup>
+        </models>
+    </global>    
+    <default>
+        <carriers>
+            <storepickup>
+                <active>1</active>
+                <model>storepickup/carrier_storepickup</model>
+                <name></name>
+                <title>Store Pickup</title>
+                <description>Pickup order in store</description>
+                <sort_order>100</sort_order>
+            </storepickup>
+        </carriers>
+    </default>
+</config> 
